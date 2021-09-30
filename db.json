@@ -1,0 +1,22 @@
+{
+  "notes": [
+    {
+      "title": "Skies",
+      "img": "./img/pxfuel0.jpg",
+      "price": "235",
+      "id": "X7BJBPJ_EcjdKd8V64YXg"
+    },
+    {
+      "title": "Boots",
+      "img": "./img/pxfuel1.jpg",
+      "price": "25",
+      "id": "_DAO1CddfBJhxvH-nYE4I"
+    },
+    {
+      "title": "Helmet",
+      "img": "./img/pxfuel2.jpg",
+      "price": "50",
+      "id": "insEvJ-NEDUkczWqMNz-V"
+    }
+  ]
+}
