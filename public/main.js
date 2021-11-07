@@ -13,9 +13,7 @@ button.addEventListener('click', () => {
 
 function handleSubmit(event) {
     event.preventDefault();
-
     const data = new FormData(event.target);
-
     const value = Object.fromEntries(data.entries());
 
     fetch("/notes/new", {
@@ -25,7 +23,7 @@ function handleSubmit(event) {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(value)
-    }).then(console.log({ value }));
+    }).then(console.log({value }));
     button.click;
 }
 
